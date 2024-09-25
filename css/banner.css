@@ -1,0 +1,155 @@
+.banner {
+  background: var(--bg-lightpink);
+  width: 100%;
+}
+
+.header {
+  padding: 12px;
+  z-index: 2;
+}
+
+.header-container {
+  max-width: var(--screen--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1;
+}
+.center {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+}
+
+.center ul {
+  display: flex;
+}
+.right {
+  flex: 1;
+}
+
+.left span {
+  color: var(--accent-red);
+  margin-left: -4px;
+}
+
+.center li {
+  list-style: none;
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.right {
+  text-align: end;
+}
+
+.right button {
+  background: black;
+  color: white;
+  border-radius: 2px;
+  padding: 8px 20px;
+  border: none;
+  font-size: 18px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background: var(--accent-red);
+  z-index: 0;
+  left: 32%;
+  border-radius: 50px;
+  top: -50px;
+}
+
+.hero {
+  max-width: var(--screen--max-width);
+  border: var(--outline-border);
+  margin: 0 auto;
+  display: flex;
+  padding-top: 60px;
+}
+
+.hero-left {
+  border: var(--outline-border);
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.heading span {
+  color: var(--accent-red);
+}
+
+.intro {
+  width: 460px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.hero-primary-btn {
+  max-width: 170px;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+.hero-secondary-btn {
+  max-width: 170px;
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid black;
+}
+
+.btn-container {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-right {
+  border: var(--outline-border);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+}
+
+.lady {
+  height: 450px;
+  z-index: 1;
+}
+
+.ux {
+  position: absolute;
+  z-index: 0;
+  width: 600px;
+}
+
+.x {
+  position: absolute;
+  width: 295px;
+  right: 92px;
+}

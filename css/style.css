@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url(banner.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+:root {
+  --screen--max-width: 1200px;
+  --bg-lightpink: rgb(255, 212, 208);
+  --outline-border: 1px solid black;
+  --accent-red: rgb(252, 51, 20);
+  --bg-color-dark: rgb(31, 31, 31);
+}
