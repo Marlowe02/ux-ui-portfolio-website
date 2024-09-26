@@ -1,0 +1,36 @@
+.service {
+  background: white;
+}
+
+.service-wrapper {
+  max-width: var(--screen--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.service-text {
+  width: 100%;
+  text-align: center;
+}
+
+.service-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.service-text p {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 44px;
+  gap: 34px;
+}
+
+.grid h2 {
+  margin: 24px 0;
+}

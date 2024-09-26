@@ -1,0 +1,9 @@
+.portfolio {
+  border: var(--outline-border);
+  height: 1000px;
+  position: relative;
+}
+
+.portfolio-bg {
+  border: var(--outline-border);
+}
