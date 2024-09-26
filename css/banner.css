@@ -51,7 +51,7 @@
 }
 
 .right button {
-  background: black;
+  background: var(--bg-color-dark);
   color: white;
   border-radius: 2px;
   padding: 8px 20px;
@@ -72,14 +72,12 @@
 
 .hero {
   max-width: var(--screen--max-width);
-  border: var(--outline-border);
   margin: 0 auto;
   display: flex;
   padding-top: 60px;
 }
 
 .hero-left {
-  border: var(--outline-border);
   max-width: 600px;
   margin-top: 50px;
 }
@@ -105,7 +103,7 @@
 .hero-primary-btn {
   max-width: 170px;
   width: 100%;
-  background: black;
+  background: var(--bg-color-dark);
   color: white;
   padding: 8px 0;
   font-size: 18px;
@@ -129,7 +127,6 @@
 }
 
 .hero-right {
-  border: var(--outline-border);
   flex: 1;
   display: flex;
   justify-content: center;
@@ -152,4 +149,10 @@
   position: absolute;
   width: 295px;
   right: 92px;
+}
+
+.arrows {
+  position: absolute;
+  height: 100px;
+  right: 230px;
 }
