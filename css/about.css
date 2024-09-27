@@ -28,24 +28,27 @@
   color: whitesmoke;
 }
 
-.stats {
+.features {
   display: flex;
   margin-top: 40px;
 }
 
-.stats div {
+.features div {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.stats div p {
+.features div p {
   color: rgb(255, 241, 239);
   font-size: 1.2rem;
 }
-.stats div h1 {
+.features div h1 {
   color: var(--bg-lightpink);
   font-size: 5rem;
+}
+.header-text h1 {
+  font-size: 2.5rem;
 }
 
 .circle-about {
